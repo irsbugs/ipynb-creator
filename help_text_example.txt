@@ -1,0 +1,24 @@
+
+Anything written here is ignored because its before the first delimiter.
+This file is stored in my github repository and in my /python/dev/ folder.
+I wrote this text in August 2019.
+
+<markdown>
+# Hello World Heading
+This is my *hello world* program.
+<code>
+# hello_world
+print("hello world")
+
+< markdown The second python program will do some maths.>
+# Maths
+This is how to obtain the **square root of 2**
+
+< code >
+import math
+< comment Remember to include the import math!>
+a = 2
+print(math.sqrt(a))
+< markdown >
+### *The End*
+<comment This is the end of the hello_world.txt example file.>
