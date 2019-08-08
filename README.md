@@ -102,5 +102,9 @@ print(math.sqrt(a))
 <comment This is the end of the hello_world.txt example file.>
 ```
 
+The above will be rendered by Jupyter-notebook as:
+
+![help_text_example_screenshot](help_text_example_screenshot.png)
+
 ## Author 
 Ian Stewart - 7 August 2019
