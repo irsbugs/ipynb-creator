@@ -562,7 +562,8 @@ o A delimiter may be surrounded by spaces. E.g. <   code         >
 o Text that follows a delimiter becomes the markdown or the code.
 o Lines of text before the first delimiter are ignored. 
 
-Example hello_world.txt file:
+Example text file:
+help_text_example.txt
 
 Anything written here is ignored because its before the first delimiter.
 This file is stored in my github repository and in my /python/dev/ folder.
@@ -586,7 +587,7 @@ a = 2
 print(math.sqrt(a))
 < markdown >
 ### *The End*
-<comment This is the end of the hello_world.txt example file.>
+<comment This is the end of the help_text_example.txt file.>
 
 Author: Ian Stewart - 7 August 2019.
 """
