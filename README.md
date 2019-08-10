@@ -1,4 +1,4 @@
-# ipynb_creator
+# ipynb-creator
 
 ## Introduction
 
@@ -10,18 +10,18 @@
 
 ## Installation
 
-On the Linux platform the python program *ipynb_creator.py* may be copied to `/usr/local/bin/` as *ipynb-creator*
+On the Linux platform the python program *ipynb-creator.py* may be copied to `/usr/local/bin/` as *ipynb-creator*
 Then change the file to be executable with `sudo chmod +x /usr/loca/bin/ipynb-creator`. Use `chdir` to set your default directory to be where your python or text files are located that are to be used to create ipynb files. 
 
 ## Help
 
-The programs help summary may be obtained with `$ python3 ipynb_creator.py -h` while the full help information with examples is obtained with `$ python3 ipynb_creator.py --help`. For example:
+The programs help summary may be obtained with `$ python3 ipynb-creator.py -h` while the full help information with examples is obtained with `$ python3 ipynb-creator.py --help`. For example:
 
 ```
-$ python3 ipynb_creator.py --help
+$ python3 ipynb-creator.py --help
 
-ipynb_creator version: 0.3
-Usage: ipynb_creator [OPTION]... [FILE]...
+ipynb-creator version: 0.3
+Usage: ipynb-creator [OPTION]... [FILE]...
 
 Create Jupyter notebook ipynb file(s) upon having been supplied python (.py) or 
 text (.txt) file(s)
@@ -44,9 +44,9 @@ A list of space separated files may be provided for which one Jupyter ipynb
 file will be created for each file in the list.
 
 The files may be selected by wildcarding with *, or *.py or *.txt. E.g.
-$ ipynb_creator *.py
+$ ipynb-creator *.py
 All .py files in current directory have a Jupyter notebook ipynb file created.
-$ ipynb_creator *.py *.txt
+$ ipynb-creator *.py *.txt
 All .py and .txt files have a Jupyter notebook ipynb files created.
 ...
 ```
@@ -107,4 +107,7 @@ The above will be rendered by Jupyter-notebook as:
 ![help_text_example_screenshot](help_text_example_screenshot.png)
 
 ## Author 
+
 Ian Stewart - 7 August 2019
+
+![cc0](https://licensebuttons.net/l/zero/1.0/88x31.png)
