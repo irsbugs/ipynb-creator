@@ -68,9 +68,9 @@ For the text (.txt) files the delimiter guidelines are:
 * Text that follows a delimiter becomes the markdown or the code.
 * Lines of text before the first delimiter are ignored.
 
-## Example hello_world.txt file
+## Example text file
 ```
-example_hello_world.txt
+help_text_example.txt
 
 
 Anything written here is ignored because its before the first delimiter.
@@ -99,7 +99,7 @@ print(math.sqrt(a))
 
 ### *The End*
 
-<comment This is the end of the hello_world.txt example file.>
+<comment This is the end of the help_text_example.txt file.>
 ```
 
 The above will be rendered by Jupyter-notebook as:
